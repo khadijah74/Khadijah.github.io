@@ -1,0 +1,135 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+}
+header{
+    background: linear-gradient(to right, rgb(54, 66, 54),rgb(83, 72, 36)
+      );
+}
+.navimg img{
+    width: 60px;
+    height: 60px;
+    border-radius: 60px;
+}
+.navimg{
+    display: flex;
+    align-items: center;
+}
+.navlinks ul{
+    display: flex;
+    list-style: none;
+    gap: 30px;
+}
+.navlinks a{
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+}
+.navbtn i{
+    background-color: dodgerblue;
+    color: white;
+    padding: 10px;
+    border-radius: 50%;
+   transform: rotate(320deg);
+}
+.navbtn .fa-arrow-right{
+    transform: rotate(320deg);
+}
+.navbtn{
+    background-color: #fff;
+    border: 2px solid dodgerblue;
+    border-radius: 20px;
+    padding: 5px 10px;
+}
+.navbtn span{
+    padding-left: 10px;
+}
+
+.herosec{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+.heroimg img{
+    width: 350px;
+    height: 350px;
+    border-radius: 50%;
+    padding: 50px;
+}
+.herocont{
+    display: flex;
+    align-items: center;
+   
+}
+.herosec i{
+    background-color: dodgerblue;
+    color: white;
+    padding: 10px;
+    border-radius: 50%;
+}
+
+/* Main section */
+.abtsection{
+    display: flex;
+    justify-content: center;
+    align-items:center;
+}
+.abtimg img{
+    width:100% ;
+}
+.heroheader{
+    margin-bottom: 15px;
+}
+.heroheader h2{
+    color: green;
+}
+.abtcont{
+    padding: 15px;
+    width: 500px;
+}
+.abtimg{
+    padding: 15px;
+}
+.projimgs{
+    display: flex;
+    /* justify-content: center; */
+    align-items: center;
+    gap: 25px;
+}
+.projimgs img{
+    width: 150px;
+    height: 100px;
+    border-radius: 5px;
+}
+.heroproj img{
+    width: 400px;
+    height: ;
+}
+/* abt right */
+.abtright{
+    padding: 10px;
+    border: 3px;
+    color: forestgreen;
+    background-color: rgb(130, 204, 130);
+}
+.abtborder{
+    border: 1px solid grey;
+    padding: 10px;
+    border-radius: 5px;
+}
+.abttxtcolor{
+    color: forestgreen;
+}
+.aboutshortdesc{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
