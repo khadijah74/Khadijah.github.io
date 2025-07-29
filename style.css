@@ -3,6 +3,9 @@
     margin: 0px;
     box-sizing: border-box;
 }
+body{
+    margin: 0;
+}
 nav{
     display: flex;
     justify-content: space-between;
