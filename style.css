@@ -75,7 +75,12 @@ header{
     padding: 10px;
     border-radius: 50%;
 }
-
+.downbtn{
+   background-color: #fff;
+    border: 2px solid dodgerblue;
+    border-radius: 20px;
+    /* padding: 5px 10px; */
+}
 /* Main section */
 .abtsection{
     display: flex;
@@ -83,7 +88,7 @@ header{
     align-items:center;
 }
 .abtimg img{
-    width:100% ;
+    width:400px ;
 }
 .heroheader{
     margin-bottom: 15px;
@@ -110,16 +115,10 @@ header{
     border-radius: 5px;
 }
 .heroproj img{
-    width: 400px;
-    height: ;
+    width: 400px; 
 }
 /* abt right */
-.abtright{
-    padding: 10px;
-    border: 3px;
-    color: forestgreen;
-    background-color: rgb(130, 204, 130);
-}
+
 .abtborder{
     border: 1px solid grey;
     padding: 10px;
@@ -133,3 +132,63 @@ header{
     flex-direction: column;
     gap: 10px;
 }
+.abtright i{
+    padding: 10px;
+    border: 3px;
+    color: green;
+}
+.navbtn{
+    gap: 30px;
+}
+.formbar h6{
+    font-size: 35px;
+    align-items: center;
+    justify-content: center;
+    padding-left: 70px;
+    padding: 15px;
+
+}
+.formbar form{
+    display: flex;
+    flex-direction: column;
+    width: 300px;
+    padding-left: 50px;
+    padding-top: 20px;
+}
+
+#name, #email{
+  height: 50px;
+}
+#message{
+    height: 100px;
+}
+#myForm button{
+    width: 70px;
+    height: 30px;
+    margin: 10px;
+    color: white;
+    background-color: rgb(131, 50, 50);
+    border-radius: 5px;
+}
+
+@media(min-width: 768px){
+    .humbg{
+        display: none;
+    }
+}
+@media(max-width: 768px){
+    .navlinks{
+        display: none;
+    }
+    .navbtn{
+        display: none;
+    }
+    .humbg{
+        font-size: 24px;
+    }
+    .navitems ul{
+        display: flex;
+        padding-top: 60px;
+    }
+}
+
